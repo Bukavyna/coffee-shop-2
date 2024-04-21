@@ -1,0 +1,61 @@
+.coffee-product-cards {
+	width: 780px;
+	height: 760px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	padding: 60px;
+	margin: 0 auto;
+
+	border: black 2px solid;
+
+	.container-card {
+		width: 220px;
+		height: 260px;
+
+		.block-card {
+			position: relative;
+			width: 220px;
+			height: 260px;
+			background-color: white;
+		}
+
+		.box {
+			position: relative;
+			top: 0;
+			left: 0;
+			transform: translate(0%, -100%);
+
+			width: 220px;
+			height: 210px;
+			flex-direction: column;
+			font-size: 14px;
+			line-height: 20px;
+
+			.box-img {
+				width: 150px;
+				height: 130px;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				margin-left: 35px;
+			}
+
+			.coffee-name {
+				width: 220px;
+				margin-top: 10px;
+				margin-bottom: -5px;
+			}
+
+			.price {
+				width: 200px;
+				text-align: end;
+				margin-top: 10px;
+			}
+		}
+
+		.aromistico-coffee-img {
+			background-image: url("../../../images/image1/62de.jpg");
+		}
+	}
+}
