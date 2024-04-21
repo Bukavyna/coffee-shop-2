@@ -12,6 +12,7 @@ class Page1Main2 extends Component {
 						<div className="block"></div>
 						<div className="solimo-coffee box">
 							<div className="solimo-coffee-img box-img"></div>
+							<img alt="#" src="../../../images/image1/51ba.jpg"/>
 							<p className="coffee-name">Solimo Coffee Beans 2 kg</p>
 							<p className="price">10.73$</p>
 						</div>
